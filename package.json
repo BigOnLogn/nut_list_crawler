@@ -1,12 +1,22 @@
 {
   "name": "nut_list_crawler",
   "version": "0.0.1",
-  "description": "build db by crawling backwards through the music nuts posts",
-  "main": "app.js",
+  "private": true,
+  "readme": "README.md",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "repository": "",
-  "author": "Nick Moore",
-  "license": "BSD"
+  "config": {
+    "port": 10002,
+    "app_id": "595629017147641",
+    "app_secret": "e19a33cb1b108552d651b5f0e42db0d8",
+    "redirect_uri": "http://local.theunusedpath.com:10002/",
+    "output_path": "./data/nuts"
+  },
+  "dependencies": {
+    "express": "3.2.6",
+    "jade": "*",
+    "async": "*",
+    "fbgraphapi": "*"
+  }
 }
