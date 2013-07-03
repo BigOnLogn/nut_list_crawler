@@ -1,0 +1,12 @@
+{
+  "name": "nut_list_crawler",
+  "version": "0.0.1",
+  "description": "build db by crawling backwards through the music nuts posts",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Nick Moore",
+  "license": "BSD"
+}
